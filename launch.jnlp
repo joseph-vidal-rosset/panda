@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="http://www.irit.fr/panda" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>Proof assistant for natural deduction for all (Panda)</title>
+        <vendor>University Paul Sabatier - IRIT</vendor>
+        <homepage href="http://www.irit.fr//panda/"/>
+        <description>A software for proving some formula with the natural deduction system.
+Un logiciel pour prouver des formules en déduction naturelle</description>
+        <description kind="short">Proof assistant for natural deduction for all (Panda)</description>
+
+
+    <icon href="splash.png" kind="splash"/>
+</information>
+<security>
+<all-permissions/>
+</security>
+    <resources>
+<j2se version="1.5+"/>
+<jar eager="true" href="panda.jar" main="true"/>
+
+
+    <jar href="lib/appframework-1.0.3.jar"/>
+<jar href="lib/swing-worker-1.1.jar"/>
+<jar href="lib/AbsoluteLayout.jar"/>
+<jar href="lib/jdom.jar"/>
+<jar href="lib/freetts.jar"/>
+<jar href="lib/cmu_us_kal.jar"/>
+<jar href="lib/cmulex.jar"/>
+<jar href="lib/en_us.jar"/>
+<jar href="lib/cmu_time_awb.jar"/>
+<jar href="lib/cmudict04.jar"/>
+<jar href="lib/cmutimelex.jar"/>
+<jar href="lib/freetts-jsapi10.jar"/>
+<jar href="lib/mbrola.jar"/>
+<jar href="lib/jscheme-7.2.jar"/>
+<jar href="lib/jlatexmath-0.9.3.jar"/>
+</resources>
+    <application-desc main-class="panda.MrnatureApp">
+
+    </application-desc>
+</jnlp>
